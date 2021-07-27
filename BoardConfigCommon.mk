@@ -41,6 +41,7 @@ TARGET_SCREEN_DENSITY := 420
 DEVICE_MANIFEST_FILE += $(WAYNE_PATH)/manifest.xml
 
 # Kernel
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := wayne_defconfig
 
 # Vendor Security patch level
